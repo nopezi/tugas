@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tugaspiramit;
+package tugaspiramit_12141421;
 import java.util.Scanner;
 
 /**
@@ -17,7 +17,9 @@ public class TugasPiramit {
 //   ============================ segitiga siku kiri bawah 
     
     public void SegitigaSiku1(){
-        System.out.println("Segitiga Siku Kiri Bawah = ");
+        System.out.println(" ========================== ");
+        System.out.println(" ");
+        System.out.println(" Segitiga Siku Kiri Bawah = ");
         for (int i=1;i<=n;i++){
         for (int k=0;k<i;k++){
             System.out.print(k+1);
@@ -29,7 +31,9 @@ public class TugasPiramit {
 //   ============================ segitiga siku kiri atas
     
     public void SegitigaSiku2(){
-        System.out.println("Segitiga Siku Kiri Atas = ");
+        System.out.println(" ========================== ");
+        System.out.println(" ");
+        System.out.println(" Segitiga Siku Kiri Atas = ");
         for (int i=n;i>0;i--){
         for (int k=0;k<i;k++){
             System.out.print(k+1);
@@ -41,7 +45,9 @@ public class TugasPiramit {
 //   ============================ segitiga siku kanan atas
     
      public void SegitigaSiku3(){
-        System.out.println("Segitiga Siku Kanan Atas = ");
+        System.out.println(" ========================== ");
+        System.out.println(" ");
+        System.out.println(" Segitiga Siku Kanan Atas = ");
         for (int i=n;i>0;i--){
             for (int j=i;j<n;j++){
                 System.out.print(" ");
@@ -56,7 +62,9 @@ public class TugasPiramit {
 //   ============================ segitiga siku kanan bawah     
      
      public void SegitigaSiku4(){
-        System.out.println("Segitiga Siku Kanan Bawah = ");
+        System.out.println(" ========================== ");
+        System.out.println(" ");
+        System.out.println(" Segitiga Siku Kanan Bawah = ");
         for (int i=1;i<=n;i++){
             for (int j=i;j<n;j++){
                 System.out.print(" ");
@@ -71,7 +79,9 @@ public class TugasPiramit {
 //    =========================== segitiga sama kaki 
      
     public void SegitigaSiku5(){
-        System.out.println("Segitiga Sama Kaki = ");
+        System.out.println(" ========================== ");
+        System.out.println(" ");
+        System.out.println(" Segitiga Sama Kaki = ");
         for (int i=1;i<=n;i++){
             for (int j=i;j<n;j++){
                 System.out.print(" ");
