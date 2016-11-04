@@ -25,6 +25,16 @@ public class TugasPiramit {
     }
     
     
+    public void SegitigaSiku2(){
+        System.out.println("Segitiga Siku Kiri Atas :");
+        for (int i=n;i>0;i--){
+        for (int k=0;k<i;k++){
+            System.out.print(k+1);
+        }
+            System.out.println();
+        }
+    }
+    
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
