@@ -15,8 +15,11 @@ public class TugasPiramit {
     int n;
     
     public void SegitigaSiku1(){
-        System.out.println("Segitiga Siku Kiri Bawah :");
+        System.out.println("Segitiga Siku Kanan Bawah :");
         for (int i=1;i<=n;i++){
+            for (int j=i;j<n;j++){
+                System.out.print(" ");
+            }
         for (int k=0;k<i;k++){
             System.out.print(k+1);
         }
@@ -35,16 +38,18 @@ public class TugasPiramit {
         }
     }
     
+    
+    
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
         
         TugasPiramit tampil = new TugasPiramit();
         
-        System.out.print("Masukkan tinggi segitiga = ");
+        System.out.print(" Masukkan tinggi segitiga = ");
         tampil.n = input.nextInt();        
         tampil.SegitigaSiku1();
-//        tampil.segitigaSikuKiriAtas();
+        tampil.SegitigaSiku2();
 //        tampil.segitigaSikuKananAtas();
 //        tampil.segitigaSikuKananBawah();
 //        tampil.segitigaSamaKaki();
