@@ -20,6 +20,12 @@ public class TebakAngka {
         
         System.out.println("masukkan angka yang ingin di tebak! ");
         int tebakan = inputAngka.nextInt();
+        
+        while (tebakan != angka) {            
+            
+        }
+        
+        System.out.println("Tebakan benar ");
     }
     
 }
